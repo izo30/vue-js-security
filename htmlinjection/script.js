@@ -8,8 +8,8 @@ new Vue({
       payload: "",
       result: "",
       payloads: [
-        '<img src=1 onerror="javascript:alert(1)"></img>',
-        '<audio src=1 href=1 onerror="javascript:alert(2)"></audio>'
+        '<img src=1 onerror="javascript:alert(\'xss\')"></img>',
+        '<audio src=1 href=1 onerror="javascript:alert(\'xss\')"></audio>'
       ]
     };
   },

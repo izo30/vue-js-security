@@ -8,7 +8,7 @@ new Vue({
         payload: '',
         result: '',
         payloads: [
-            'javascript:alert(1)'
+            'javascript:alert(\'xss\')'
         ]
       };
     },
